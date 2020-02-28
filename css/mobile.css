@@ -1,0 +1,225 @@
+body{
+
+    background-image: url(../img/gardens-background.jpg);
+    background-size: cover;
+    min-height:700px ;
+    min-height:700px;
+}
+
+.login{
+    margin: 0 auto;
+    width: 80%;
+    height:100%;
+    
+}
+
+#campos label{
+    font-size: 25px;
+    font-style:oblique;
+    float: left;
+}
+#camposQuestoes label{
+
+    font-size: 35px;
+    }
+
+
+    #peguntaPrin{
+
+      display: block;
+
+    }
+
+
+#campos input {
+    border: 2px solid rgba(255, 0, 0, 0);
+    border-radius: 4px;
+    width: 80%;
+    height: 100%;
+    font-size: 40px;
+}
+form{
+    width: 360px;
+    margin: 0 auto;
+}
+#botoes{
+    margin-top: 10%;
+
+
+}
+.rodape {
+    position:absolute;
+    bottom:0;
+    width:80%;
+}
+
+
+#questoes{
+   
+        background: white;
+        border:solid black 1px ;
+       max-height: 270px;
+        max-width: auto;
+        margin: 0 auto;
+}
+#Cadastroquestoes{
+        background: white;
+        border:solid black 1px ;
+        max-height: 454px;
+        max-width: auto;
+        margin: 0 auto;
+}
+
+#questoesAresponder{
+
+    background: white;
+    border:solid black 1px ;
+    min-height: 454px;
+    min-width: 250px;
+    margin: 0 auto;
+
+
+}
+#questoesAresponder input[type="radio" i]{
+
+    padding: 20px;
+    width: 20px;
+    height:20px ;
+
+
+ }
+
+ #alternativa{
+
+        margin-bottom: 40px;
+
+ }
+#questoesAresponder *{
+
+    font-size: 35px;
+}
+#questoesAresponder p {
+
+    font-size: 35px;
+
+
+
+}
+#campos input {
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 40px;
+    margin-top: 5px;
+    width: 60%;
+    display: block;
+    
+ }
+ #camposQuestoes input{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 0px;
+    width: 60%;
+    height: 80%;
+    display: inline-block;
+ }
+ #camposQuestoes input[type="radio" i]{
+
+    padding: 20px;
+    width: 40px;
+    height:40px ;
+
+
+ }
+ 
+ #butonn{
+    
+ font-size: 30px;
+ margin-bottom: 20px;
+
+ }
+
+ #botoesCadastro{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+     cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+}
+
+#cadastrar{
+
+    background-color: red; 
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      cursor: pointer;
+      margin-top: 15px;
+  
+  }
+
+  #informacoes{
+    background: white;
+    border:solid black 1px;
+    height: 200px ;
+    width: 400px;
+    margin: 0 auto;
+    font-weight: bolder;
+    font-size: 17px;
+    padding-left: 0.5px;
+}
+
+#informacoes p{
+    display: inline-block;
+    margin-left:10px;
+    font-style: italic;
+    font-size: 30px;
+}
+
+#entrarSobre{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+     cursor: pointer;
+     margin-bottom: 10px;
+
+}
+
+#novoUsuarioSobre{
+
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}

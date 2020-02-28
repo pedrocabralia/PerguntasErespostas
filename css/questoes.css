@@ -1,0 +1,240 @@
+
+body{
+    background-image: url(../img/gardens-background.jpg);
+    background-size: cover;
+
+
+}
+.login{
+    margin: 0 auto;
+    width: 800px;
+    height:350px;
+    padding: 10px;
+}
+figure{
+    margin: 0 auto;
+    text-align: center;
+}
+#campos *{
+ display: block;
+ margin-bottom: 4px;
+ }
+ #campos label{
+     font-size: 25px;
+}
+
+#botoes{
+    width:100%;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+ #campos input {
+    border: 2px solid rgba(255, 0, 0, 0);
+    border-radius: 4px;
+    width: 100%;
+ }
+
+
+form input { 
+    width: auto;
+}
+
+form{
+     width: 360px;
+     margin: 0 auto;
+}
+
+.container{
+  margin: 0 auto;
+  text-align: center;
+}
+.container li{
+    display: inline;
+}
+.container a {
+    text-decoration: none;
+}
+.rodape{
+    margin: 0 auto;
+    text-align: center;
+    width:300px;
+      margin: 0 auto;
+  }
+  .rodape li{
+      display: inline;
+  }
+  .rodape a {
+      text-decoration: none;
+  }
+.social  {
+    display: inline-block;
+    height:100px ;
+    width: 200px;
+
+
+
+}
+.social	a	{
+    /*	tamanho	da	imagem	*/
+    height:	32px;
+    width:	32px;
+    /*	image	replacement	*/
+    display:inline-block;
+    text-indent:-9999px;
+    margin-top: 100px;
+    		
+}
+.social	a[href*="facebook.com"]	{
+
+    background-image:url(../img/facebook.png);
+    float: left;
+   
+}
+.social	a[href*="twitter.com"]	{
+    background-image:	url(../img/twitter.png);
+    float: right;
+
+}
+.social	a[href*="plus.google.com"]	{
+    background-image:	url(../img/googleplus.png);
+    float: center;
+
+}
+.rodape{
+    width:200px;
+    height:100px;
+
+    margin: 0 auto;
+}
+
+#PaginaInicial{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+     cursor: pointer;
+
+}
+
+#botoesVerifica{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+     cursor: pointer;
+     margin-top: 50px;
+
+}
+
+
+#botoesCadastro{
+
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+
+
+#questoesAresponder{
+
+    background: white;
+    border:solid black 1px ;
+    min-height: 204px ;
+    width: 400px;
+    margin: 0 auto;
+    
+    font-size: 20px;
+    padding-left: 2px;
+    font-weight: bolder;
+
+}
+#segunda{
+    display: inline-block;
+    margin-bottom: 10px;
+
+
+}
+
+
+
+
+#proxima {
+
+ background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+
+
+}
+#ajuda{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+    margin-left: 160px;
+    
+
+
+
+
+
+}
+#numeroDaQuestao{
+    display: inline-block;
+    float: right;
+    margin-right: 10px;
+}
+
+input[type=radio]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+  }
+
+
+  

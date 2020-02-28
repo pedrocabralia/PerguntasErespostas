@@ -1,0 +1,154 @@
+
+body{
+    background-image: url(../img/gardens-background.jpg);
+    background-size: cover;
+
+
+}
+.login{
+    margin: 0 auto;
+    width: 800px;
+    height:350px;
+    padding: 10px;
+}
+figure{
+    margin: 0 auto;
+    text-align: center;
+}
+#campos *{
+ display: block;
+ margin-bottom: 4px;
+ }
+ #campos label{
+     font-size: 25px;
+}
+
+#botoes{
+    width:30%;
+    margin-top: 15px;
+    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+ #campos input {
+    border: 2px solid rgba(255, 0, 0, 0);
+    border-radius: 4px;
+    width: 100%;
+ }
+
+
+form input { 
+    width: auto;
+}
+
+form{
+     width: 360px;
+     margin: 0 auto;
+}
+
+.container{
+  margin: 0 auto;
+  text-align: center;
+}
+.container li{
+    display: inline;
+}
+.container a {
+    text-decoration: none;
+}
+.social	a	{
+    /*	tamanho	da	imagem	*/
+    height:	32px;
+    width:	32px;
+    /*	image	replacement	*/
+    display:inline-block;
+    text-indent:-9999px;
+    margin-top: 100px;
+    		
+}
+.social	a[href*="facebook.com"]	{
+
+    background-image:url(../img/facebook.png);
+    float: left;
+   
+}
+.social	a[href*="twitter.com"]	{
+    background-image:	url(../img/twitter.png);
+    float: right;
+
+}
+.social	a[href*="plus.google.com"]	{
+    background-image:	url(../img/googleplus.png);
+    float: center;
+    margin-left: 70px;
+
+}
+.rodape{
+    width:300px;
+    margin: 0 auto;
+}
+
+#entrarSobre{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+     cursor: pointer;
+
+}
+
+#novoUsuarioSobre{
+
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+
+
+rodape{
+    margin: 0 auto;
+    text-align: center;
+    width:300px;
+      margin: 0 auto;
+  }
+  .rodape li{
+      display: inline;
+  }
+  .rodape a {
+      text-decoration: none;
+  }
+
+#informacoes{
+    background: white;
+    border:solid black 1px;
+    height: 200px ;
+    width: 400px;
+    margin: 0 auto;
+    font-weight: bolder;
+    font-size: 17px;
+    padding-left: 0.5px;
+}
+
+#informacoes p{
+    display: inline-block;
+    margin-left:10px;
+    font-style: italic;
+    
+
+}
